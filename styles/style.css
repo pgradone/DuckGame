@@ -1,0 +1,30 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  -webkit-transition-duration: 0.3s;
+          transition-duration: 0.3s;
+}
+
+body {
+  font-family: sans-serif;
+}
+
+.container {
+  height: 400px;
+  width: 400px;
+  border: 1px solid blue;
+  position: relative;
+}
+
+.crosshair {
+  height: 10%;
+  width: 10%;
+  background-color: white;
+  color: black;
+  border: 1px solid black;
+  position: absolute;
+  top: 40%;
+  left: 40%;
+  text-align: center;
+}
+/*# sourceMappingURL=style.css.map */
